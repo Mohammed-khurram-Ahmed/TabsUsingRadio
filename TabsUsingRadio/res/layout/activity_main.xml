@@ -66,6 +66,7 @@
         android:layout_height="wrap_content"
         android:gravity="center"
         android:clickable="false"
+        
         android:layout_alignParentBottom="true"
         android:orientation="horizontal" >
 
@@ -73,16 +74,19 @@
             android:id="@+id/indibtn1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:clickable="false"
             android:gravity="center" />
 
         <RadioButton
             android:id="@+id/indibtn2"
+            android:clickable="false"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center" />
 
         <RadioButton
             android:id="@+id/indibtn3"
+            android:clickable="false"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="1dp"
@@ -91,6 +95,7 @@
 
         <RadioButton
             android:id="@+id/indibtn4"
+            android:clickable="false"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:gravity="center" />
